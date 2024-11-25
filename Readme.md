@@ -10,3 +10,7 @@ This is a simple demo project to show how to run a basic Flask app in Docker.
 
    ```bash
    docker build -t flask-demo .
+
+## Run the Container
+docker run -p 5000:5000 flask-demo
+
